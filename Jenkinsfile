@@ -13,10 +13,10 @@ pipeline {
                 sh 'ng build --prod'
             }
         }
-        stage('Deploy') {
-            steps {
-                // Add deployment steps here, e.g., using AWS CLI or S3 plugin
-            }
-        }
+//         stage('Deploy') {
+//             steps {
+//                 // Add deployment steps here, e.g., using AWS CLI or S3 plugin
+//             }
+//         }
     }
 }
